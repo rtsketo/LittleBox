@@ -6,44 +6,46 @@
 6
 7    <uses-sdk
 7-->D:\Cloud\GitHub\LittleBox\app\src\main\AndroidManifest.xml:7:5-47
-8        android:minSdkVersion="8"
+8        android:minSdkVersion="14"
 8-->D:\Cloud\GitHub\LittleBox\app\src\main\AndroidManifest.xml:7:5-47
-9        android:targetSdkVersion="17" />
+9        android:targetSdkVersion="29" />
 9-->D:\Cloud\GitHub\LittleBox\app\src\main\AndroidManifest.xml:7:15-44
 10
 11    <application
 11-->D:\Cloud\GitHub\LittleBox\app\src\main\AndroidManifest.xml:9:5-25:20
 12        android:allowBackup="true"
 12-->D:\Cloud\GitHub\LittleBox\app\src\main\AndroidManifest.xml:10:9-35
-13        android:debuggable="true"
-14        android:icon="@drawable/bad01"
-14-->D:\Cloud\GitHub\LittleBox\app\src\main\AndroidManifest.xml:11:9-39
-15        android:label="@string/app_name"
-15-->D:\Cloud\GitHub\LittleBox\app\src\main\AndroidManifest.xml:12:9-41
-16        android:testOnly="true"
-17        android:theme="@style/AppTheme" >
-17-->D:\Cloud\GitHub\LittleBox\app\src\main\AndroidManifest.xml:13:9-40
-18        <activity
-18-->D:\Cloud\GitHub\LittleBox\app\src\main\AndroidManifest.xml:14:9-24:20
-19            android:name="com.arti.games.littlebox.LittleBox"
-19-->D:\Cloud\GitHub\LittleBox\app\src\main\AndroidManifest.xml:15:13-62
-20            android:label="@string/app_name"
-20-->D:\Cloud\GitHub\LittleBox\app\src\main\AndroidManifest.xml:16:13-45
-21            android:screenOrientation="portrait"
-21-->D:\Cloud\GitHub\LittleBox\app\src\main\AndroidManifest.xml:17:13-49
-22            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
-22-->D:\Cloud\GitHub\LittleBox\app\src\main\AndroidManifest.xml:18:13-71
-23            <intent-filter>
-23-->D:\Cloud\GitHub\LittleBox\app\src\main\AndroidManifest.xml:19:13-23:29
-24                <action android:name="android.intent.action.MAIN" />
-24-->D:\Cloud\GitHub\LittleBox\app\src\main\AndroidManifest.xml:20:17-69
-24-->D:\Cloud\GitHub\LittleBox\app\src\main\AndroidManifest.xml:20:25-66
-25
-26                <category android:name="android.intent.category.LAUNCHER" />
-26-->D:\Cloud\GitHub\LittleBox\app\src\main\AndroidManifest.xml:22:17-77
-26-->D:\Cloud\GitHub\LittleBox\app\src\main\AndroidManifest.xml:22:27-74
-27            </intent-filter>
-28        </activity>
-29    </application>
-30
-31</manifest>
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.0.0] C:\Users\deadl\.gradle\caches\transforms-2\files-2.1\4c3c9a144a68fd1054e6716c37db7a13\core-1.0.0\AndroidManifest.xml:22:18-86
+14        android:debuggable="true"
+15        android:icon="@drawable/bad01"
+15-->D:\Cloud\GitHub\LittleBox\app\src\main\AndroidManifest.xml:11:9-39
+16        android:label="@string/app_name"
+16-->D:\Cloud\GitHub\LittleBox\app\src\main\AndroidManifest.xml:12:9-41
+17        android:testOnly="true"
+18        android:theme="@style/AppTheme" >
+18-->D:\Cloud\GitHub\LittleBox\app\src\main\AndroidManifest.xml:13:9-40
+19        <activity
+19-->D:\Cloud\GitHub\LittleBox\app\src\main\AndroidManifest.xml:14:9-24:20
+20            android:name="com.arti.games.littlebox.LittleBox"
+20-->D:\Cloud\GitHub\LittleBox\app\src\main\AndroidManifest.xml:15:13-62
+21            android:label="@string/app_name"
+21-->D:\Cloud\GitHub\LittleBox\app\src\main\AndroidManifest.xml:16:13-45
+22            android:screenOrientation="portrait"
+22-->D:\Cloud\GitHub\LittleBox\app\src\main\AndroidManifest.xml:17:13-49
+23            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+23-->D:\Cloud\GitHub\LittleBox\app\src\main\AndroidManifest.xml:18:13-71
+24            <intent-filter>
+24-->D:\Cloud\GitHub\LittleBox\app\src\main\AndroidManifest.xml:19:13-23:29
+25                <action android:name="android.intent.action.MAIN" />
+25-->D:\Cloud\GitHub\LittleBox\app\src\main\AndroidManifest.xml:20:17-69
+25-->D:\Cloud\GitHub\LittleBox\app\src\main\AndroidManifest.xml:20:25-66
+26
+27                <category android:name="android.intent.category.LAUNCHER" />
+27-->D:\Cloud\GitHub\LittleBox\app\src\main\AndroidManifest.xml:22:17-77
+27-->D:\Cloud\GitHub\LittleBox\app\src\main\AndroidManifest.xml:22:27-74
+28            </intent-filter>
+29        </activity>
+30    </application>
+31
+32</manifest>
